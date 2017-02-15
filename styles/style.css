@@ -1,13 +1,4 @@
-/* Elements */
-body {
-	box-sizing: border-box;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
+/*** Elements ***/
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather Sans', sans-serif;
 }
@@ -37,15 +28,11 @@ a {
 }
 
 .float-left {
-	float: left;
-	margin-right: 2em;
-	margin-bottom: 4em;
+
 }
 
 .float-right {
-	float: right;
-	margin-left: 2em;
-	margin-bottom: 2em;
+
 }
 
 .sticky-top-bar {
@@ -59,7 +46,6 @@ a {
 .container {
 	color: #212121;
 	margin-top: 7em;
-	margin-bottom: 10em;
 }
 
 .container a {
@@ -70,7 +56,7 @@ a {
 	color: #FF8F00;
 }
 
-/* Website Sections */
+/*** Website Sections ***/
 .about {
 
 }
@@ -149,4 +135,45 @@ a {
 
 .outgoing-links ul li a:hover {
 	color: #FF8F00;
+}
+
+/*** Media Queries ***/
+/* Mobile */
+body {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+	body {
+		text-align: left;
+		box-sizing: border-box;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.float-left {
+		float: left;
+		margin-right: 2em;
+		margin-bottom: 4em;
+	}
+
+	.float-right {
+		float: right;
+		margin-left: 2em;
+		margin-bottom: 2em;
+	}
+
+	.container {
+		margin-bottom: 10em;
+	}
 }
