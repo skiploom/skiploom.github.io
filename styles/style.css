@@ -38,17 +38,27 @@ a {
 
 .float-left {
 	float: left;
-	margin-right: 1em;
+	margin-right: 2em;
+	margin-bottom: 4em;
 }
 
 .float-right {
 	float: right;
-	margin-left: 1em;
+	margin-left: 2em;
+	margin-bottom: 2em;
+}
+
+.sticky-top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
 }
 
 .container {
 	color: #212121;
-	margin-top: 3em;
+	margin-top: 7em;
 	margin-bottom: 10em;
 }
 
@@ -77,14 +87,16 @@ a {
 
 .projects ul li {
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom: 5em;
 
 }
 
 .nav-links {
 	text-align: center;
-	padding-top: 0.5em;
-
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: rgba(255,255,255,0.90);
+	border-bottom: 1px solid #cfd8dc;
 }
 
 .nav-links ul {
@@ -95,13 +107,15 @@ a {
 
 .nav-links ul li {
 	display: inline;
-	padding-left: 2em;
-	padding-right: 2em;
 }
 
 .nav-links ul li a {
 	text-decoration: none;
 	color: #607D8B;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .nav-links ul li a:hover {
@@ -110,7 +124,8 @@ a {
 
 .outgoing-links {
 	text-align: center;
-	padding-bottom: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .outgoing-links ul {
@@ -121,13 +136,15 @@ a {
 
 .outgoing-links ul li {
 	display: inline;
-	padding-left: 2em;
-	padding-right: 2em;
 }
 
 .outgoing-links ul li a {
 	text-decoration: none;
 	color: #607D8B;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .outgoing-links ul li a:hover {
