@@ -35,17 +35,8 @@ a {
 
 }
 
-.sticky-top-bar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 9999;
-}
-
 .container {
 	color: #212121;
-	margin-top: 7em;
 }
 
 .container a {
@@ -58,7 +49,12 @@ a {
 
 /*** Website Sections ***/
 .about {
+	margin-bottom: 4em;
 
+}
+
+.contact-links {
+	padding-top: 1em;
 }
 
 .projects {
@@ -73,68 +69,8 @@ a {
 
 .projects ul li {
 	margin-top: 2em;
-	margin-bottom: 5em;
+	margin-bottom: 4em;
 
-}
-
-.nav-links {
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background-color: rgba(255,255,255,0.90);
-	border-bottom: 1px solid #cfd8dc;
-}
-
-.nav-links ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.nav-links ul li {
-	display: inline;
-}
-
-.nav-links ul li a {
-	text-decoration: none;
-	color: #607D8B;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-.nav-links ul li a:hover {
-	color: #FF8F00;
-}
-
-.outgoing-links {
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-.outgoing-links ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.outgoing-links ul li {
-	display: inline;
-}
-
-.outgoing-links ul li a {
-	text-decoration: none;
-	color: #607D8B;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
-.outgoing-links ul li a:hover {
-	color: #FF8F00;
 }
 
 /*** Media Queries ***/
@@ -174,6 +110,6 @@ img {
 	}
 
 	.container {
-		margin-bottom: 10em;
+		margin-bottom: 5em;
 	}
 }
