@@ -7,6 +7,10 @@ h1 {
 	font-size: 2em;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -33,6 +37,27 @@ a {
 
 .float-right {
 
+}
+
+.header-content {
+	margin-bottom: 2em;
+}
+
+.contact {
+	display: flex;
+	font-size: .9em;
+}
+
+.contact > .labels {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	margin-right: 1em;
+}
+
+.contact > .links {
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
