@@ -4,11 +4,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 4.5em;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: .75em;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #212121; 
 }
 
 p {
@@ -17,6 +20,7 @@ p {
 
 a {
 	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
 }
 
 .img-responsive {
@@ -61,15 +65,15 @@ a {
 }
 
 .container {
-	color: #212121;
+	color: #ffffff;
 }
 
 .container a {
-	color: #607D8B;
+	color: #FF8F00;
 }
 
 .container a:hover {
-	color: #FF8F00;
+	color: #607D8B;
 }
 
 /*** Website Sections ***/
