@@ -11,7 +11,11 @@ h1 {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #212121; 
+	background: #fff886;
+	background: -webkit-linear-gradient(bottom right,#fff886,#dd6161);
+	background: -moz-linear-gradient(bottom right,#fff886,#dd6161);
+	background: linear-gradient(bottom right,#fff886,#dd6161);
+	
 }
 
 p {
@@ -43,7 +47,7 @@ a {
 
 }
 
-.header-content {
+#about .description {
 	margin-bottom: 2em;
 }
 
@@ -69,7 +73,7 @@ a {
 }
 
 .container a {
-	color: #FF8F00;
+	color: #FBE9E7;
 }
 
 .container a:hover {
