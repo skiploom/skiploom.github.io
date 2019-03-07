@@ -50,7 +50,7 @@ a {
 
 nav.contact {
 	display: flex;
-	margin-top: 1em;
+	margin-top: 3em;
 }
 
 nav.contact > div {
@@ -117,5 +117,9 @@ img {
 		margin-left: 1em;
 		margin-right: 1em;
 		justify-content: center;
+	}
+
+	nav.contact {
+		margin-top: 1em;
 	}
 }
