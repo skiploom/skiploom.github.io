@@ -11,21 +11,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 4.5em;
 	font-family: 'Raleway', sans-serif;
-	margin-bottom: .75em;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	/*height: 100%;*/
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background: #fff886;
 	background: -webkit-linear-gradient(bottom right,#fff886,#dd6161) fixed;
 	background: -moz-linear-gradient(bottom right,#fff886,#dd6161) fixed;
 	background: linear-gradient(bottom right,#fff886,#dd6161) fixed;
-	
-	
+	color: #ffffff;	
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 p {
@@ -49,71 +47,28 @@ a {
 	border-radius: 15%;
 }
 
-.float-left {
 
-}
-
-.float-right {
-
-}
-
-#about .description {
-	margin-bottom: 2em;
-}
-
-.contact {
+nav.contact {
 	display: flex;
-	font-size: .9em;
+	margin-top: 1em;
 }
 
-.contact > .labels {
-	display: flex;
-	flex-direction: column;
-	font-weight: bold;
+nav.contact > div {
+	margin-left: 1em;
 	margin-right: 1em;
 }
 
-.contact > .links {
-	display: flex;
-	flex-direction: column;
-}
-
-.container {
-	color: #ffffff;
-}
-
-.container a {
+a {
 	color: #FBE9E7;
 }
 
-.container a:hover {
+a:hover {
 	color: #607D8B;
 }
 
 /*** Website Sections ***/
-.about {
-	margin-bottom: 4em;
-
-}
-
-.contact-links {
-	padding-top: 1em;
-}
-
-.projects {
-	
-}
-
-.projects ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.projects ul li {
-	margin-top: 2em;
-	margin-bottom: 4em;
-
+nav.contact {
+	justify-content: center;
 }
 
 /*** Media Queries ***/
@@ -134,25 +89,33 @@ img {
 		text-align: left;
 		box-sizing: border-box;
 		max-width: 800px;
+		margin-top: 0;
+		margin-bottom: 0;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 1em;
-		padding-right: 1em;
 	}
 
-	.float-left {
-		float: left;
-		margin-right: 2em;
-		margin-bottom: 4em;
+	.about {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 
-	.float-right {
-		float: right;
-		margin-left: 2em;
-		margin-bottom: 2em;
+	.left {
+		grid-column: 1;
+		grid-row: 1;
+		display: flex;
+		flex-direction: column;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 
-	.container {
-		margin-bottom: 5em;
+	.right {
+		grid-column: 2;
+		grid-row: 1;
+		display: flex;
+		flex-direction: column;
+		margin-left: 1em;
+		margin-right: 1em;
+		justify-content: center;
 	}
 }
