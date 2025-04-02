@@ -1,106 +1,80 @@
-/*** Elements ***/
-
-html {
-	height: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Merriweather Sans', sans-serif;
-}
-
 h1 {
-	font-size: 4.5em;
-	font-family: 'Raleway', sans-serif;
+  font-size: 4.5em;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background: #fff886;
-	background: -webkit-linear-gradient(bottom right,#fff886,#dd6161) fixed;
-	background: -moz-linear-gradient(bottom right,#fff886,#dd6161) fixed;
-	background: linear-gradient(bottom right,#fff886,#dd6161) fixed;
-	color: #ffffff;	
-	margin-top: 2em;
-	margin-bottom: 2em;
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: #fff886;
+  background: -webkit-linear-gradient(bottom right, #fff886, #dd6161) fixed;
+  background: -moz-linear-gradient(bottom right, #fff886, #dd6161) fixed;
+  background: linear-gradient(bottom right, #fff886, #dd6161) fixed;
+  color: #ffffff;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-	font-family: 'Open Sans', sans-serif;
-	text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
-
-.img-responsive {
-	max-width: 100%;
-}
-
-.img-circle {
-	border-radius: 50%;
-}
-
-.img-rounded {
-	border-radius: 15%;
-}
-
 
 nav.contact {
-	display: flex;
-	margin-top: 3em;
+  display: flex;
+  margin-top: 3em;
 }
 
 nav.contact > div {
-	margin-left: 1em;
-	margin-right: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 a {
-	color: #FBE9E7;
+  color: #fbe9e7;
 }
 
 a:hover {
-	color: #607D8B;
+  color: #607d8b;
 }
 
-/*** Website Sections ***/
 nav.contact {
-	justify-content: center;
+  justify-content: center;
 }
 
 /*** Media Queries ***/
+
 /* Mobile */
+
 body {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Desktop */
+
 @media only screen and (min-width: 768px) {
-	body {
-		text-align: center;
-		box-sizing: border-box;
-		max-width: 800px;
-		margin-top: 0;
-		margin-bottom: 0;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  body {
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	.about {
-		display: flex;
-		flex-direction: column;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
 
-	nav.contact {
-		margin-top: 2em;
-	}
+  nav.contact {
+    margin-top: 2em;
+  }
 }
